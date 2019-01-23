@@ -5,7 +5,7 @@
  * Date: 2019/1/7
  * Time: 11:02
  */
-
+//入库订单控制器
 namespace Home\Controller;
 use Think\Controller;
 class OrderInController extends CommonController {
