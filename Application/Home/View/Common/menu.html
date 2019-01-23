@@ -1,0 +1,32 @@
+<!-- Sidebar Menu -->
+<div region="west" split="true" title="导航栏" style="width:15%;">
+    <div class="easyui-panel" title="仓储" collapsible="true" style="width:100%;height:auto;">
+        <ul class="easyui-tree">
+            <li><span><a onclick="addTab('出库单','{:U('OrderOut/OrderOutDataGrid')}')">出库单</a></span></li>
+            <li><span><a onclick="addTab('入库单','{:U('OrderIn/OrderInDataGrid')}')">入库单</a></span></li>
+            <li><span><a onclick="addTab('货品管理','{:U('Warehouse/warehouseDataGrid')}')">货品管理</a></span></li>
+        </ul>
+    </div>
+    <div class="easyui-panel" title="用户" collapsible="true" collapsed="true" style="width:100%;height:auto;">
+        <ul class="easyui-tree">
+            <li><span><a onclick="addTab('用户管理','{:U('User/easyuiDataGrid')}')">用户管理</a></span></li>
+        </ul>
+    </div>
+    <div class="easyui-panel" title="Folder 2" collapsible="true" collapsed="true" style="width:100%;height:auto;">
+        <ul class="easyui-tree">
+            <li><span><a onclick="addTab('File21','test')">File 21</a></span></li>
+            <li><span><a onclick="addTab('File22','test')">File 22</a></span></li>
+            <li><span><a onclick="addTab('File23','test')">File 23</a></span></li>
+            <li><span><a onclick="addTab('File24','test')">File 24</a></span></li>
+        </ul>
+    </div>
+    <div class="easyui-panel" title="Folder 3" collapsible="true" collapsed="true" style="width:100%;height:auto;">
+        <ul class="easyui-tree">
+            <li><span><a onclick="addTab('File31','test')">File 31</a></span></li>
+            <li><span><a onclick="addTab('File32','test')">File 32</a></span></li>
+            <li><span><a onclick="addTab('File33','test')">File 33</a></span></li>
+        </ul>
+    </div>
+
+</div>
+<!-- /.sidebar-menu -->

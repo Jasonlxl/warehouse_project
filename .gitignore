@@ -1,0 +1,7 @@
+l.php
+/Application/Runtime/
+/phpMyAdmin/
+/sql/
+/.idea/
+/.settings/
+.classpath
